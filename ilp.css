@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:#0e0725;
+    display: flex;
+    flex-direction: column;
+    font-family:cursive;
+    overflow-y:hidden;
+    background-image: url(ilp\ image.jpg);
+    object-fit:cover;
+}
+
+.search-container {
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    background: rgba(245, 238, 238, 0.2);
+
+    width: 600px;
+    height: 600px;
+    padding: 30px;
+    border-radius: 10px;
+    border: none;
+}
+
+#school-list {
+    list-style: none;
+    padding: 0;
+}
+
+#school-list li {
+    margin: 10px 0;
+}
+
+#school-list li a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+label{
+    font-size: 1.5rem;
+    background-color: #ed63f1;
+    background: rgba(245, 238, 238,0.5);
+
+    
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    color: rgb(3, 148, 141);
+    border-radius: 10px;
+    border: none;
+
+}
+
+input{
+
+    font-size: 1.5rem;
+    background-color:#43fdee;
+    background: rgba(245, 238, 238, 0.5);
+
+    text-align: center;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-weight: 600;
+    color: rgb(65, 57, 57);
+    border-radius: 10px;
+    border: none;
+
+}
+.search-results {
+    max-height: 300px; /* Set the maximum height for the results */
+    overflow-y: auto; /* Enable vertical scrollbar if needed */
+    list-style-type: none;
+    padding: 0;
+    color: black;
+    border: none;
+
+    
+}
+#school-list li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 30px;
+    text-align: center;
+    margin-right: 20px;
+
+}
+#school-list li a {
+    text-decoration: none;
+color: black;
+background-color: white;
+text-align: center;
+font-size: 1.5rem;
+padding: 10px;
+border-radius: 10px;
+
+}
+
+#school-list li a:hover{
+    text-decoration: none;
+color: white;
+background-color: rgb(22, 94, 230);
+text-align: center;
+font-size: 1.5rem;
+
+}
+
+#school-search::placeholder {
+    color: black; /* Change the color to your desired placeholder text color */
+    font-family: cursive; /* Change the font family for placeholder text */
+    border: none;
+    font-size: 1.2rem; /* Change the font size for placeholder text */
+}
